@@ -78,10 +78,10 @@ The analyzed results were stored in a single CSV file named "hcds-a2-bias.csv"
 
 
 ### Reflections
-*##### Bias are embeded in algorithms
+* ##### Bias are embeded in algorithms
 The quality of articles were determined from  a machine learning service called Objective Revision Evaluation Service (ORES). The assessment was done by  training a model to replicate the article quality assessments that humans perform, so that every article and every revision can be automatically accessed with a computer. Although ORES is an example of a fairly transparent and interpretable modle, still, the assessment algorithm itself could be biased. We should be careful about algorithm bias in any data science research when utilizing external algorithms. 
 
-*##### Bias exist in original data resources
+* ##### Bias exist in original data resources
 The politician articles are obtained from English-language Wikipedia articles within the category "Category:Politicians by nationality" and subcategories. The segmentation of politicians may be biased, e.g. the editor is reluctant to label the category as politician. Due to such bias in original data resources, one should be careful about drawing definitive conclusions from the analysis. 
 
 * ##### Bias exist in data analysis
